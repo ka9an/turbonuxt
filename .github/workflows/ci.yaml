@@ -58,6 +58,6 @@ jobs:
         with:
           args: deploy --dir=${{ env.PATH_BUILD_WEB }} --functions=${{ env.PATH_BUILD_WEB_FUNCTIONS }} -p
         env:
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID_WEB_MAIN }}
+          NETLIFY_SITE_ID: cc097bcd-09d1-494e-873f-708b6620a87d
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
 
