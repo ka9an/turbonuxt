@@ -20,7 +20,7 @@
     "turbo": "latest"
   },
   "engines": {
-    "node": ">=v18.13.0"
+    "node": ">=20.12.0"
   },
   "packageManager": "pnpm@7.26.3"
 }
